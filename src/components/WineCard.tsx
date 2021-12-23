@@ -15,9 +15,7 @@ export const WineCard = ({ wineData }: WineProps) => {
                 {wine}
                 <Average>{rating.average}</Average>
             </h2>
-            <p>
-                {winery} - {location}
-            </p>
+            <p>{winery} - {location}</p>
             <p>
                 별점:
                 {rating.reviews.replace(' ratings', '')}
@@ -40,7 +38,7 @@ const Average = styled.span`
     display: inline-block;
     padding: 0.3em;
     font-size: 16px;
-    margin-left: 0.5em;
+    margin: 0 0.3em;
     color: white;
     background: #2ac1bc;
     border-radius: 3px;
