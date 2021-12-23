@@ -32,6 +32,7 @@ export const WineContainer = ({ name }: WineContainerProps) => {
 };
 
 const WineTitle = styled.h1`
+    font-size: 1.5em;
     line-height: 180%;
     border-bottom: 1px solid #eee;
 `;

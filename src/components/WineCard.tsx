@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
 import { Wine } from '../types/Wine';
+import styled from '@emotion/styled';
 
 interface WineProps {
     wineData: Wine;
@@ -21,8 +21,8 @@ export const WineCard = ({ wineData }: WineProps) => {
                 {rating.reviews.replace(' ratings', '')}
             </p>
         </Container>
-    );
-};
+    )
+}
 
 const Container = styled.div`
     display: flex;
